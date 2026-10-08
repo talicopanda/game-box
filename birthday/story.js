@@ -11,7 +11,7 @@ export const questions = [
   },
   {
     id: "massage",
-    wording: "Does Kris agree to give massages on request for the rest of the couple’s life?",
+    wording: "Does Kris agree to give massages on request for the rest of her life?",
     gag: "terms",
   },
   {

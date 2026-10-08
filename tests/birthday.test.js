@@ -10,7 +10,7 @@ test("the birthday delivery has the four approved questions and distinct No gags
   assert.doesNotMatch(questions[0].wording, /For legal reasons/);
   assert.match(questions[1].wording, /100% of the TV rights/);
   assert.match(questions[1].wording, /Say Yes to the Dress/);
-  assert.match(questions[2].wording, /give massages on request/);
+  assert.match(questions[2].wording, /give massages on request for the rest of her life/);
   assert.match(questions[3].wording, /not saying ‘I don’t know’/);
 });
 
@@ -28,7 +28,7 @@ test("the elephant uses the supplied PNG and the drone uses inline SVG", async (
   assert.match(styles, /drone-lift 3\.6s 1\.3s ease-in-out forwards/);
   assert.match(styles, /drone-lift 3\.6s 1\.3s ease-in-out forwards/);
   assert.match(styles, /@keyframes drone-arrive[\s\S]*translate\(-50%, calc\(100vh - 88px\)\)/);
-  assert.match(styles, /@keyframes drone-lift[\s\S]*translate\(0, -12px\)[\s\S]*translate\(112vw, -150px\)/);
+  assert.match(styles, /@keyframes drone-lift[\s\S]*translate\(0, -48px\)[\s\S]*translate\(112vw, -150px\)/);
 });
 
 test("birthday UI shows scan progress and does not narrate the runaway No gag", async () => {

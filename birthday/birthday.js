@@ -138,8 +138,8 @@ const screens = {
       </div>
       <div class="signal-meter"><span style="width:${state.charge}%"></span></div>
       <div class="signal-actions">
-        <button class="action secondary" data-action="tilt">${state.sensor ? copy.tiltOn : copy.enableTilt}</button>
-        <button class="action" data-action="tune">${copy.tapTune}<span aria-hidden="true">＋</span></button>
+        <button class="action" data-action="tilt">${state.sensor ? copy.tiltOn : copy.enableTilt}</button>
+        <button class="action secondary" data-action="tune">${copy.tapTune}<span aria-hidden="true">＋</span></button>
       </div>
       <p class="sensor-note">${copy.reducedHint}</p>
     </section>
